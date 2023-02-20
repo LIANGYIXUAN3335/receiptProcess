@@ -2,13 +2,13 @@
 
 **Func 1:** Post  Receipt info in json format
 
-![4](\readme hyperlink\4.png)
+![4](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/4.png)
 
-![12](\readme hyperlink\12.png)
+![12](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/12.png)
 
 **Func 2:** Get points of the Receipt by id
 
-![14](\readme hyperlink\14.png)
+![14](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/14.png)
 
 # Guide of start this spring boot application
 
@@ -38,7 +38,7 @@ Others - https://www.youtube.com/watch?v=XveQ9Gq41UM
 
  A video of STEPS below,  you can also see the picture steps below alternatively.
 
-https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/quick%20guide%20of%20running%20this%20application.mp4
+<video src="https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/quick%20guide%20of%20running%20this%20application.mp4"></video>
 
 ## Step2: Import it in eclipse
 
@@ -54,45 +54,45 @@ When you see the **pom file** as below , click **finish**.
 
 Right click **project name -> Properties-> Java build path-> double click [jre system library]** 
 
-![5](\readme hyperlink\5.png)
+![5](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/5.png)
 
 Choose **Execution environment -> JavaSE -17**   then apply 
 
-![6](\readme hyperlink\6.png)
+![6](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/6.png)
 
 then choose **Java Compiler** and save settings as below.
 
-![7](\readme hyperlink\7.png)
+![7](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/7.png)
 
 Open the main class **ReceiptProcessApplication.java** and **right click and select" run as" -> 1 java application"**
 
-![8](\readme hyperlink\8.png)
+![8](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/8.png)
 
 Choose **window -> show view -> console**
 
-![9](\readme hyperlink\9.png)
+![9](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/9.png)
 
 When you see this, that means the web application is start with no error.
 
-![10](\readme hyperlink\10.png)
+![10](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/10.png)
 
 ## Step3:
 
 Add **Talend API tester** in chrome extension
 
-![11](\readme hyperlink\11.png)
+![11](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/11.png)
 
 Choose **"POST"** in Method and type "http://localhost:8080/receipts/process" **in** **"SCHEME"** 
 
 Then add a json file Receipt in Body and Choose **"Send"**
 
-![4](\readme hyperlink\4.png)
+![4](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/4.png)
 
 Then we can find the Response below with generated ID of  the Receipt we've posted.
 
-![12](\readme hyperlink\12.png)
+![12](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/12.png)
 
 Copy the Id and paste it in the position below then click **Send**, then we get  **{"points ": "xx" }** below in the response body. 
 
-![14](\readme hyperlink\14.png)
+![14](https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/readme%20hyperlink/14.png)
 
