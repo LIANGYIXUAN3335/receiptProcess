@@ -38,9 +38,7 @@ Others - https://www.youtube.com/watch?v=XveQ9Gq41UM
 
 I have record a video of the process of using this application,  you can also see the picture steps below alternatively.
 
-<video src="quick guide of running this application.mp4"></video>
-
-
+https://github.com/LIANGYIXUAN3335/receiptProcess/blob/main/quick%20guide%20of%20running%20this%20application.mp4
 
 ## Step2: Import it in eclipse
 
